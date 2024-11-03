@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full lg:block hidden  md:w-1/2 w-4/5">
-      <Image alt="hero" src={require('../../pics/pic1.jpg')} className='w-[350px] h-[400px] rounded-tl-3xl rounded-br-3xl rounded-bl-[70px] rounded-tr-[70px]' />
+      <Image alt="hero" src={require('../../pics/pic1.jpg')} className='w-[350px] lg:h-[400px] rounded-tl-3xl rounded-br-3xl rounded-bl-[70px] rounded-tr-[70px]' />
     </div>
   </div>
 </section>
